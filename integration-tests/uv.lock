@@ -418,16 +418,18 @@ dependencies = [
     { name = "msgpack" },
     { name = "paginate" },
     { name = "pymongo" },
+    { name = "pymysql" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "aiomysql", specifier = ">=0.3.2" },
     { name = "click", specifier = ">=8.3.1" },
-    { name = "fastmcp", specifier = ">=2.14.4" },
+    { name = "fastmcp", specifier = ">=2.14.4,<4" },
     { name = "msgpack", specifier = ">=1.1.2" },
     { name = "paginate", specifier = ">=0.5.7" },
     { name = "pymongo", specifier = ">=4.16.0" },
+    { name = "pymysql", specifier = ">=1.1.2,<1.2.1" },
 ]
 
 [package.metadata.requires-dev]
